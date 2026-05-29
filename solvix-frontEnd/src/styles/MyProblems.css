@@ -1,0 +1,181 @@
+.my-problems {
+  padding: 30px 0;
+}
+
+.my-problems-header {
+  margin-bottom: 30px;
+}
+
+.my-problems-header h1 {
+  font-size: 32px;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.filters {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filters label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.filters select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.problems-list {
+  display: grid;
+  gap: 20px;
+}
+
+.problem-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.problem-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.problem-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.problem-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.problem-card-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.problem-card-body {
+  margin-bottom: 15px;
+}
+
+.problem-card-description {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.problem-card-solution {
+  background: #f0f9ff;
+  border-left: 4px solid #0ea5e9;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.problem-card-solution h4 {
+  color: #0c4a6e;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.solution-steps {
+  list-style: none;
+  padding: 0;
+}
+
+.solution-steps li {
+  padding: 8px 0;
+  color: #1f2937;
+  font-size: 14px;
+}
+
+.solution-steps li:before {
+  content: "✓ ";
+  color: #0ea5e9;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.problem-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  font-size: 20px;
+  cursor: pointer;
+  color: #d1d5db;
+  transition: color 0.2s ease;
+}
+
+.star.filled {
+  color: #fbbf24;
+}
+
+.star:hover {
+  color: #fbbf24;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.no-problems-message {
+  background: white;
+  border-radius: 8px;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-problems-message h3 {
+  color: #6b7280;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.no-problems-message p {
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
